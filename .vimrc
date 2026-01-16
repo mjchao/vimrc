@@ -143,7 +143,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme desert
+    colorscheme default
 catch
 endtry
 
@@ -388,6 +388,6 @@ endfunction
 set nu
 set mouse=a
 set cc=80
-colorscheme default
 set cursorline
 highlight CursorLine cterm=NONE ctermbg=darkblue guibg=#2e2e2e
+highlight Comment ctermfg=LightCyan guifg=#80a0ff
