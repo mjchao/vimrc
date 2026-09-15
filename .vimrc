@@ -391,3 +391,10 @@ set cc=80
 set cursorline
 highlight CursorLine cterm=NONE ctermbg=darkblue guibg=#2e2e2e
 highlight Comment ctermfg=LightCyan guifg=#80a0ff
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
+set listchars=tab:\\t,extends:>,precedes:<
+set list
+
